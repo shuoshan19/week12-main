@@ -19,10 +19,11 @@ function receiveSerial() {
   }
 
   let data = JSON.parse(line).data;
-  let a0 = data.A0;
+  print(data);
+  // let a0 = data.A0;
 
-  cBackgroundColor = map(a0.value, a0.min, a0.max, 0, 255);
-  readyToReceive = true;
+  // cBackgroundColor = map(a0.value, a0.min, a0.max, 0, 255);
+  // readyToReceive = true;
 }
 
 function connectToSerial() {

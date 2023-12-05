@@ -1,0 +1,6 @@
+// String SSID("SSID");
+// String SSID_PASSWORD("PASSWORD");
+// String SSID_USER("USER");
+
+String SSID("6063D");
+String SSID_PASSWORD("2023F6063D");
